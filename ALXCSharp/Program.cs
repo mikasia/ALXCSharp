@@ -1,5 +1,5 @@
-﻿using ALXCSharp.Demo;
-using System;
+﻿using System;
+using ALXCSharp.Demo;
 
 namespace ALXCSharp
 {
@@ -19,9 +19,12 @@ namespace ALXCSharp
             int number = 6;
             int number2 = number + 2;
             //Console.WriteLine(number+2);
-           // Console.WriteLine(number2);
+            // Console.WriteLine(number2);
             //VariablesDemo.Run();
-            VariablesDemo.RunLogicalCalculator();
+            //VariablesDemo.RunLogicalCalculator();
+            //FunctionsDemo.Run();
+            //ClassesDemo.Run();
+            EnumsDemo.Run();
         }
     }
 }

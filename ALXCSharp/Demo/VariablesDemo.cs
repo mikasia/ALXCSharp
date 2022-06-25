@@ -92,6 +92,7 @@ namespace ALXCSharp.Demo
             bool x = Convert.ToBoolean(Console.ReadLine());
             Console.Write("Enter y number: ");
             bool y = Convert.ToBoolean(Console.ReadLine());
+            Console.WriteLine();
             Console.WriteLine($"{x} AND {y} = {x && y}");
             Console.WriteLine($"{x} OR {y} = {x || y}");
             Console.WriteLine($"{x} XOR {y} = {x ^ y}");
