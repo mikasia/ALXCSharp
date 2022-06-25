@@ -21,6 +21,9 @@ namespace ALXCSharp.Demo
                 );
 
             message.ChangeStatus(MessageStatus.SENT);
+            message.ChangeStatus(MessageStatus.DRAFT);
+            message.ChangeStatus(MessageStatus.PENDING);
+            message.ChangeStatus(MessageStatus.SERVICE_FAULT);
         }
     }
 }
