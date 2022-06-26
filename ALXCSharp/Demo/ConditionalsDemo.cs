@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ALXCSharp.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -56,6 +57,49 @@ namespace ALXCSharp.Demo
             {
                 Console.WriteLine("The given input is not a number!");
             }
+        }
+        public static void RunSwitch()
+        {
+            var sex = Sex.MALE;
+            switch(sex)
+            {
+                case Sex.MALE:
+                    Console.WriteLine("The sex is male");
+                    break;
+
+                case Sex.FEMALE:
+                    Console.WriteLine("The sex is female");
+                    break;
+
+                case Sex.CUSTOM:
+                    Console.WriteLine("The sex is custom");
+                    break;
+
+                default: Console.WriteLine("default");
+                    break;
+            }
+            Console.WriteLine("Switch end");
+
+            int number = 0;
+            switch (number)
+            {
+                case 0:
+                    Console.WriteLine("hej");
+                    break;
+
+                case 1:
+                    Console.WriteLine("Thx");
+                    break;
+
+                case 126:
+                    Console.WriteLine("beka");
+                    break;
+
+                default:
+                    Console.WriteLine("fajno");
+                    break;
+            }
+            Console.WriteLine("Switch end");
         }
     }
 

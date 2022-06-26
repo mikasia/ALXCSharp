@@ -26,7 +26,13 @@ namespace ALXCSharp
             //ClassesDemo.Run();
             //EnumsDemo.Run();
             //ConditionalsDemo.Run();
-            ConditionalsDemo.RunNumberApp();
+            //ConditionalsDemo.RunNumberApp();
+            //ArraysAndLists.Run();
+            //ArraysAndListsDemo.RunLists();
+            //LoopsDemo.Run();
+            //ConditionalsDemo.RunSwitch();
+            GlobalAndLocalVariablesDemo.Run();
+            Console.WriteLine("Bye!");
         }
     }
 }
