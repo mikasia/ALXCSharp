@@ -24,7 +24,9 @@ namespace ALXCSharp
             //VariablesDemo.RunLogicalCalculator();
             //FunctionsDemo.Run();
             //ClassesDemo.Run();
-            EnumsDemo.Run();
+            //EnumsDemo.Run();
+            //ConditionalsDemo.Run();
+            ConditionalsDemo.RunNumberApp();
         }
     }
 }
